@@ -16,6 +16,7 @@ members = [
     "store/test-store",
     "graph",
     "tests",
+    "k6-tests"
 ]
 
 # Incremental compilation on Rust 1.58 causes an ICE on build. As soon as graph node builds again, these can be removed.

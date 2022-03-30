@@ -2141,6 +2141,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "k6-tests"
+version = "0.0.1"
+dependencies = [
+ "anyhow",
+ "graph-tests",
+ "tokio",
+ "tokio-stream",
+]
+
+[[package]]
 name = "keccak"
 version = "0.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"

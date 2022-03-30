@@ -3,7 +3,7 @@ name = "graph-tests"
 version = "0.25.2"
 edition = "2021"
 
-[dev-dependencies]
+[dependencies]
 bollard = "0.10"
 tokio = {version = "1.16.1", features = ["rt", "macros", "process"]}
 tokio-stream = "0.1"
@@ -11,3 +11,6 @@ futures = "0.3.13"
 port_check = "0.1.5"
 anyhow = "1.0.54"
 lazy_static = "1.4.0"
+
+[lib]
+path = "tests/common/mod.rs"
